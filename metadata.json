@@ -1,0 +1,23 @@
+{
+  "name": "bwilcox-ezjail",
+  "version": "0.1.0",
+  "author": "Bill Wilcox",
+  "summary": "Administrate freebsd jails using ezjail.",
+  "license": "Apache-2.0",
+  "source": "",
+  "dependencies": [
+
+  ],
+  "operatingsystem_support": [
+    "FreeBSD"
+  ],
+  "requirements": [
+    {
+      "name": "puppet",
+      "version_requirement": ">= 4.7.0 < 6.0.0"
+    }
+  ],
+  "pdk-version": "1.2.0",
+  "template-url": "https://github.com/puppetlabs/pdk-module-template",
+  "template-ref": "heads/master-0-ge3a6b4d"
+}
